@@ -135,9 +135,15 @@
         </div>
         <button class="accordion">Search Floating Lightning Bolts (0/7)</button>
         <div class="panel">
-           <a href="Lightning.png">
-           <img src="Lightning.png" width="540px"; height="577px";/>
+           <div id="pageone" data-role="main" class="ui-content">
+           <a href="#myPopup" data-rel="popup" data-position-to="window">
+                   <img src="Lightning.png" width="540px"; height="577px";/></a>
                 </a>
+          <div data-role="popup" id="myPopup">
+                  <p>Collect 7 Lightning Blolts to Complete Your Challenge</p>
+           <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="Lightning.png" width="540px"; height="577px";>
+                </div>
+        </div>
           <p>
           Collect 7 Lightning Blolts to Complete Your Challenge
           </p>
